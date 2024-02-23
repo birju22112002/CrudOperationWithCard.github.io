@@ -1,0 +1,81 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Blogs</h1>
+      <div id="wel">
+        <h1>Welcome, bale@gmail.com</h1>
+        <div id="wel2">
+          <button id="logout">Log Out</button>
+          <!-- <a href="card.html"> -->
+          <button id="submit" onclick="addNewRecord()">ADD NEW RECORD</button>
+          <!--  </a> -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="container" style="padding-top: 50px; padding-left: 20px">
+        <div class="author-container" id="a1">
+          <h3>Author Name</h3>
+        </div>
+        <div class="author-container">
+          <h3>Title</h3>
+          <input type="text" id="t1" />
+        </div>
+        <div id="container" style="padding-top: 1px; padding-right: 230px">
+          <div class="author-container" id="authorList">
+            <h3 id="authorListHeading" style="cursor: pointer">
+              Author Name List
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="container" style="padding-top: 100px; padding-left: 20px">
+        <div class="author-container">
+          <h3>Description</h3>
+          <textarea name="" id="description" cols="30" rows="4"></textarea>
+        </div>
+
+        <div class="author-container" id="a2">
+          <h3>Category</h3>
+        </div>
+
+        <div id="container" style="padding-top: 1px; padding-right: 265px">
+          <div class="author-container" id="categoryList">
+            <h3 id="categoryListHeading" style="cursor: pointer">
+              Category List
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br />
+    <hr />
+    <br />
+    <!-- <div class="card">
+      <img src="/Untitled.jpg" alt="Placeholder Image" />
+      <div class="card-content">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+          lacus tristique, eleifend lorem sit amet, feugiat ipsum.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
